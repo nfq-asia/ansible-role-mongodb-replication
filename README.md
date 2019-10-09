@@ -9,7 +9,7 @@ Edit mongodb_version in defaults/main.yml or in the mongdb.yml playbook to insta
 ```
 mongodb_version: "4.0"
 mongodb_replica_set_name: "standard-replication"
-mongodb_replica_set_enable_majority_read_concern: true
+mongodb_replica_set_enable_majority_read_concern: "true"
 
 admin_password: changeit123
 admin_roles: dbAdminAnyDatabase
