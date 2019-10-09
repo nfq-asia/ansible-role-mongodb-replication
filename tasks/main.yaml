@@ -1,0 +1,9 @@
+---
+# tasks file for mongodb replication
+- include: install.yaml
+  tags:
+    - install
+
+- include: configure.yaml
+  tags:
+    - configure

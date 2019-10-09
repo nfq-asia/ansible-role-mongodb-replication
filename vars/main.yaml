@@ -1,0 +1,3 @@
+---
+mongodb_source_key: https://www.mongodb.org/static/pgp/server-{{ mongodb_version }}.asc
+mongodb_source_url: "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/{{ mongodb_version }} multiverse"

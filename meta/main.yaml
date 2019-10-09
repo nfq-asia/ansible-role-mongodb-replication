@@ -1,0 +1,12 @@
+---
+galaxy_info:
+  author: Hieu Huynh from devops-team
+  description: Ansible playbook to setup MongoDB replication cluster
+  company: NFQ.asia
+  platforms:
+    - name: Ubuntu
+      versions:
+        - 18.04 minmal
+  license: MIT
+  min_ansible_version: 1.2
+  galaxy_tags: []
