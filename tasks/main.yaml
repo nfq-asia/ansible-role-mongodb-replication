@@ -10,4 +10,3 @@
     replica_set    : "{{ mongodb_replica_set_name }}"
     members        : "{{ mongodb_replica_members }}"
     validate       : true
-  when: groups.mongod.index(inventory_hostname) == 0
