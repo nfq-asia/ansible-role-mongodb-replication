@@ -2,11 +2,11 @@
 # tasks file for mongodb replication
 - name: Implementation replicaset
   mongodb_replicaset:
-    login_host     : {{ mongodb_primary_host }}
-    login_port     : {{ mongodb_primary_port }}
-    login_user     : {{ mongodb_primary_username }}
-    login_password : {{ mongodb_primary_password }}
-    login_database : {{ mongodb_primary_auth_db }}
-    replica_set    : {{ mongodb_replica_set_name }}
-    members        : {{ mongodb_replica_members }}
+    login_host     : "{{ mongodb_primary_host }}"
+    login_port     : "{{ mongodb_primary_port }}"
+    login_user     : "{{ mongodb_primary_username }}"
+    login_password : "{{ mongodb_primary_password }}"
+    login_database : "{{ mongodb_primary_auth_db }}"
+    replica_set    : "{{ mongodb_replica_set_name }}"
+    members        : "{{ mongodb_replica_members }}"
     validate       : true
