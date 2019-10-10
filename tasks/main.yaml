@@ -7,6 +7,7 @@
       path: /etc/mongod.conf
       line: '{{ item }}'
       insertafter: EOF
+      state: present
     with_items:
       - "replication:"
       - " replSetName: {{ mongodb_replica_set_name }}"
