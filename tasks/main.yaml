@@ -10,7 +10,7 @@
       state: present
     with_items:
       - "replication:"
-      - " replSetName: {{ mongodb_replica_set_name }}"
+      - "  replSetName: {{ mongodb_replica_set_name }}"
   - systemd: 
       name: mongod
       state: restarted
